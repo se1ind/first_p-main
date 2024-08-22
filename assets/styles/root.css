@@ -1,0 +1,34 @@
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --green:#5fe0be;
+    --yellow-green:#11bd0d;
+    --firefly:#0b2131;
+    --red:#d62308;
+    --clay:#1b1f28;
+    --blue:#2700ef;
+    --blue-line:#1657ff;
+    --dodger-blue:#4884ff;
+    --oxford-blue:#394b58;
+    --parfume:#cdc4fb;
+    --geraldine:#fb998a;
+    --pink-line:#ee27ff;
+    --red-line:#ff4e65;
+    --orange-line:#ff9b00;
+    --sushi:#97b442;
+    --golden-sand:#f3df6b;
+    --blue-bell:#948ac3;
+    --copper-rust:#98584E;
+    
+    
+    
+    --red-hat-text:"RedHatText",sans-serif;
+    --transition:all 0.3s ease-out;
+    --header-height:97px;
+
+
+
+
+
+
+}

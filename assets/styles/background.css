@@ -1,0 +1,19 @@
+/*buttonların rengi*/
+.bg-dodger-blue{
+    background-color:var(--dodger-blue);
+}
+.bg-yellow-green{
+    background-color:var(--yellow-green);
+}
+.bg-green{
+    background-color:var(--green);   
+}
+.bg-green{
+    background-color:var(--green);
+}
+.bg-golden-sand{
+   background-color:var(--golden-sand);
+}
+.bg-firefly{
+    background-color:var(--firefly);
+}

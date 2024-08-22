@@ -1,0 +1,45 @@
+h1{
+    font-size: 60px; /*yazı boyutu*/
+    font-weight:600; /*yazı tipinin ne kadar kalın ya da ince gözükeceğidir */
+    line-height:80px; /* h1 arası boşluklar için */
+    }
+    h2{
+    font-size:50px;
+    font-weight:500;
+    line-height:normal;
+    }
+    h3{
+    font-size:30px;
+    font-weight:500;
+    line-height:normal;
+    }
+    h4{
+    font-size:30px;
+    font-weight:600;
+    }
+    h5{
+    font-size: 24px;
+    font-weight:500;
+    }
+    h6{
+      font-size:20px;
+      font-weight:700;  
+    }
+p {
+  font-size:20px;
+  font-weight:400;
+  line-height:normal; /*p arası boluklar normal */
+  color:var(--oxford-blue);
+}    
+p.lg{
+  font-size:24px;        /*en büyük*/
+}                        /*p'nin default'unda font-weight 400 old. için yazmadık*/
+p.sm{                    /*en küçük paragraf*/
+  font-size:16px;
+}
+.color-firefly{
+  color:var(--firefly);
+}
+.text-align-center{
+  text-align:center;
+}

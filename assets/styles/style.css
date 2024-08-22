@@ -1,0 +1,246 @@
+body {
+  font-family: "Prompt", sans-serif;
+  color: var(--firefly);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--black);
+  height: var (--header-height);
+}
+.logo {
+  padding: 0 38px;
+  border-right: 2px solid var(--black);
+  height: var(--header-height);
+  line-height: var(--header-height);
+}
+.header-btn-container {
+  height: var(--header-height);
+  padding-left: 38px;
+  border-left: 2px solid var(--black);
+  display: flex;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+  gap: 47px;
+}
+.hero {
+  display: flex;
+  height: calc(
+    100vh - var(--header-height)
+  ); /*100vh=tüm browser'ı kapsar.o yüzden header'ı calc sayesinde çıkarıyoruz. */
+}
+.hero-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero-info-container p {
+  margin-top: 16px; /*üst kısma uzaklık */
+}
+.hero-info-container input {
+  margin-top: 50px;
+}
+.hero-info-container button {
+  margin-top: 42px;
+}
+.hero-img-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.references ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+.services{
+    padding-top:60px;
+    padding-bottom:110px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-bottom:2px solid var(--firefly);
+}
+.services h2+p {
+  margin-top:16px;
+}
+.services-categories{
+    display:flex;
+    gap:100px;
+    margin-top:67px;
+
+}
+.services-category{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:26px;
+
+}
+.services-img-container{
+    --size:160px;
+    border:2px solid var(--firefly);
+    box-shadow:6px 6px 0px 0px var(--black);
+    height:var(--size);
+    width:var(--size);
+    border-radius:32px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.info{
+  padding-top:68px;
+  padding-bottom:141px;
+
+  display:flex;
+  flex-direction:column;
+  gap:95px;
+}
+.info-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+.info-container img{
+  width:40%;
+}
+.info-text-container{
+ width:40%;
+ display:flex;
+ flex-direction:column;
+ align-items:flex-start;
+ gap:32px;
+}
+.info-text-container h2{
+  line-height:70px;
+}
+.team{
+  padding-top:125px;
+  padding-bottom:125px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+
+}
+.team img{
+  width:40%;
+
+}
+.team-text-container{
+width:40%;
+}
+.team-text-container *{
+  color:var(--white);
+}
+.team-text-container > p{    /*team-text-container'ın hemen altındaki p 'nin */
+  margin-top:8px;
+}
+.team-members{
+margin-top:57px;
+display:flex;
+flex-wrap:wrap;
+}
+.team-member{
+width:50%;  /*iki parçaya ayrılsın diye 50% dedik */
+}
+.team-member:first-child{
+  padding-right:24px;
+  padding-bottom:36px;
+  border-right: 2px solid var(--red-line);
+  border-bottom: 2px solid var(--pink-line);
+  
+}
+.team-member:nth-child(2){
+  padding-left:24px;
+  padding-bottom:36px;
+ border-bottom: 2px solid var(--blue-line);
+}
+.team-member:nth-child(3){
+  padding-right:24px;
+  padding-top:36px;
+ border-right: 2px solid var(--orange-line);
+}
+.team-member:last-child{
+  padding-left:24px;
+  padding-top:36px;
+}
+.pricing{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:81px;
+  padding-bottom:94px;
+}
+.pricing >p{
+  max-width:750px;
+}
+
+.pricing-plans{
+display:flex;
+gap:40px;
+}
+
+.pricing-plan{
+ border-radius:20px;
+  flex:1 1 auto;
+  display:flex;
+  flex-direction:column;
+  margin-top:68px;
+  max-width:620px;
+}
+.pricing-plan.basic{
+background-color:var(--parfume);
+border:2px solid var(--firefly);
+}
+.pricing-plan.basic .pricing-plan-feature{
+  border-bottom-color: var(--blue-bell);
+}
+.pricing-plan.pro{
+  background-color:var(--geraldine);
+  box-shadow:8px 8px 0px 0px var(--clay);
+}
+.pricing-plan.pro .pricing-plan-feature{
+  border-bottom-color:var(--copper-rust);
+}
+.pricing-plan > button{
+  margin:42px 54px 60px;
+}
+.pricing-plan-header{
+  padding:34px 54px 19px;
+  border-bottom:2px solid var(--firefly);
+}
+.pricing-plan-features{
+margin-top:4px;
+padding:0 54px;
+}
+.pricing-plan-feature{
+  padding:24px 0px;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+
+}
+.pricing-plan-feature:last-child {
+  border-bottom:none;
+
+}
+.pricing-plan-feature-header{
+ display:flex;
+ gap:16px;
+ align-items:center; 
+}
+.pricing-plan-feature-header + p{
+  padding-left:46px;
+  margin-top:12px;
+}
