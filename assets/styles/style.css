@@ -207,12 +207,18 @@ border:2px solid var(--firefly);
 .pricing-plan.basic .pricing-plan-feature{
   border-bottom-color: var(--blue-bell);
 }
+.pricing-plan.basic .pricing-plan-feature {
+  color:var(--blue);
+}
 .pricing-plan.pro{
   background-color:var(--geraldine);
   box-shadow:8px 8px 0px 0px var(--clay);
 }
 .pricing-plan.pro .pricing-plan-feature{
   border-bottom-color:var(--copper-rust);
+}
+.pricing-plan.pro .pricing-plan-feature {
+  color:var(--red);
 }
 .pricing-plan > button{
   margin:42px 54px 60px;
@@ -243,4 +249,30 @@ padding:0 54px;
 .pricing-plan-feature-header + p{
   padding-left:46px;
   margin-top:12px;
+}
+.faq{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.faq>p{
+  max-width:750px;
+  margin-bottom:50px;
+}
+.faq-questions{
+align-self:stretch;
+}
+.faq-question-container{
+  width:50%;
+  padding-bottom:20px;
+  border-bottom:1px solid var(--firefly);
+}
+.faq-question-container>h5{
+  color:var(--geraldine);
+  margin-bottom:10px;
+}
+.faq-question{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
