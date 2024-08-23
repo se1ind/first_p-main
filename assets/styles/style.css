@@ -261,10 +261,13 @@ padding:0 54px;
 }
 .faq-questions{
 align-self:stretch;
+display:flex;
+flex-wrap:wrap;
+column-gap:85px;
 }
 .faq-question-container{
-  width:50%;
-  padding-bottom:20px;
+ width: calc(50% - 43px);
+  padding:20px 0;
   border-bottom:1px solid var(--firefly);
 }
 .faq-question-container>h5{
