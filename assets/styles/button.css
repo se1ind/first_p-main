@@ -59,6 +59,7 @@
   font-size: 20px;
   text-decoration: none;
   transition: var(--transition);
+  cursor: pointer;
 }
 .link:hover {
   color: var(--dodger-blue);
